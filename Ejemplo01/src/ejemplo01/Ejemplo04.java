@@ -18,7 +18,7 @@ public class Ejemplo04 {
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
-        //Print se diferencia de println en que println baja un espacio y print se mantiene en esa linea
+        //Print se diferencia de println en que println baja un espacio y print se mantiene en esa linea, asi mismo printl hace un salto de linea
         System.out.println("----------------");
         System.out.println(nombreEstudiante + " ");
         System.out.println(apellidoEstudiante + " ");
