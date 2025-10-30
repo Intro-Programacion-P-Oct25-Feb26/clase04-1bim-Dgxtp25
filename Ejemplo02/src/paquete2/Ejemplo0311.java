@@ -5,6 +5,7 @@
  */
 package paquete2;
 
+import java.io.PrintStream;
 import java.util.Scanner;
 
 /**
@@ -20,6 +21,7 @@ public class Ejemplo0311 {
         String apellido;
         int nacimiento;
         int ciclo;
+        String direccion;
         
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
@@ -34,8 +36,12 @@ public class Ejemplo0311 {
          System.out.println("Ingrese su ciclo academico en numero");
         ciclo = entrada.nextInt();
         
-        System.out.printf("Datos del estudiante\nNombre: %s\nApellido: %s\nNacimiento"
-                + "%s\nCiclo: %s", 
+        System.out.println("Ingrese su direccion");
+        direccion = entrada.nextLine();
+        
+        PrintStream printf = System.out.printf("Datos del estudiante\nNombre: %s\nApellido: "
+                + "%s\nAño de Nacimiento"
+                + "%s\nCiclo Academico: %s\nDireccion: %s", 
                 nombre,
                 apellido,
                 nacimiento,
